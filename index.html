@@ -142,8 +142,8 @@
             <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Invisible Heroes</h4>
-            <p class="text-muted">Unity3D Game Development</p>
+            <h4>Trouble in Terrorist Town VR (Working Title)</h4>
+            <p class="text-muted">Unity3D VR Multiplayer Game </p>
           </div>
         </div>
         <div class="col-md-3 col-sm-6 portfolio-item">
@@ -156,8 +156,8 @@
             <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Trouble in Terrorist Town VR (Working Title)</h4>
-            <p class="text-muted">Unity3D VR Multiplayer Game</p>
+            <h4>Invisible Heroes</h4>
+            <p class="text-muted">Unity3D Game Development</p>
           </div>
         </div>
         <div class="col-md-3 col-sm-6 portfolio-item">
@@ -714,20 +714,39 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Invisible Heroes</h2>
-                <p class="item-intro text-muted">Procedurally generated map experiment and single-item scavenger hunt.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                <p>
-                  <a href="https://drive.google.com/file/d/0B-jDV3yzqTzuei1zTFFzbzU2M28/view?usp=sharing">Invisible
-                    Heroes</a>
-                  is my first Unity programming project. It is a simple game that requires the player to locate an
-                  artifact on a procedurally
-                  generated map with procedurally placed trees and other items.
-                  There is a readme within the linked file that includes more details.
+                <h2 class="text-uppercase">Trouble In Terrorist Town VR (Working Title)</h2>
+                <p class="item-intro text-muted">VR Networked Multiplayer via VRTK and UNet</p>
+                <!-- <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt=""> -->
+
+                <div class="embed-responsive embed-responsive-16by9 mb-3">
+                  <video width="480" height="280" controls class="embed-responsive-item">
+                    <source src="./video/TTT-VR/TTT VR Multiplayer Demo.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+
+                <p>This title is my foray into VR Networked Multiplayer with UNet and VRTK. Good tutorials on how to
+                  implement networked multiplayer in VR can be hard to find, so a lot of experimentation and research
+                  went into the initial setup of this.
+
+                  I do plan on moving from UNet to Photon in the near future, and one of my ambitions for this game is
+                  to include robust steam workshop support, so that modders can use it as a framework to make fun
+                  gamemodes, custom maps, and custom models.
+                  <br><br>
+                  [Current Version = As of 10/8/2018] <br>
+                  Features
+                  <ul>
+                    <li>Tracked VR Headset and hand controllers over UNet Multiplayer.</li>
+                    <li>Tracked VR locomotion over UNet</li>
+                    <li>Pickup of items via child/parent reassignment. This means that network tracking item transforms
+                      is not absolutely necessary.</li>
+                    <li>Simple raycast weaponry that can be dual-wielded.</li>
+                    <li>Health and damage system with a death state.</li>
+                  </ul>
                 </p>
                 <ul class="list-inline">
-                  <li>Date: March 2016</li>
-                  <li>Category: Unity3D Game Design</li>
+                  <li>Date: September 2018 - Present</li>
+                  <li>Category: Unity3D VR Game Development</li>
                 </ul>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
@@ -754,34 +773,20 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Trouble In Terrorist Town VR (Working Title)</h2>
-                <p class="item-intro text-muted">VR Networked Multiplayer via VRTK and UNet</p>
-                <!-- <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt=""> -->
-
-                <div class="embed-responsive embed-responsive-16by9 mb-3">
-                  <video width="480" height="280" controls class="embed-responsive-item">
-                    <source src="./video/TTT-VR/NonVR-Shooting-and-Damage.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                  </video>
-                </div>
-
-                <p>This title is my foray into VR Networked Multiplayer with UNet and VRTK. Good tutorials on how to
-                  implement networked multiplayer in VR can be hard to find, so a lot of experimentation and research
-                  went into the initial setup of this.
-
-                  I do plan on moving from UNet to Photon in the near future, and one of my ambitions for this game is
-                  to include robust steam workshop support, so that modders can use it as a framework to make fun
-                  gamemodes, custom maps, and custom models.
-                  <br><br>
-                  [Current Version = As of 10/8/2018] <br>
-                  Features
-                  <ul>
-                    <li></li>
-                  </ul>
+                <h2 class="text-uppercase">Invisible Heroes</h2>
+                <p class="item-intro text-muted">Procedurally generated map experiment and single-item scavenger hunt.</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
+                <p>
+                  <a href="https://drive.google.com/file/d/0B-jDV3yzqTzuei1zTFFzbzU2M28/view?usp=sharing">Invisible
+                    Heroes</a>
+                  is my first Unity programming project. It is a simple game that requires the player to locate an
+                  artifact on a procedurally
+                  generated map with procedurally placed trees and other items.
+                  There is a readme within the linked file that includes more details.
                 </p>
                 <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Category: Unity3D VR Game Development</li>
+                  <li>Date: March 2016</li>
+                  <li>Category: Unity3D Game Design</li>
                 </ul>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
@@ -793,6 +798,8 @@
       </div>
     </div>
   </div>
+
+
 
   <!-- Modal 4 -->
   <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
