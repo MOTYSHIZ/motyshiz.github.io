@@ -650,8 +650,8 @@ header.masthead .intro-text .intro-heading {
 }
 
 section#contact {
-  background-color: #212529;
-  background-image: url("../img/videoblocks-abstract-polygonal-space-low-poly-dark-background_b3eahq7rl_thumbnail-full01.png");
+  background-color: #050a0c;
+  /* background-image: url("../img/videoblocks-abstract-polygonal-space-low-poly-dark-background_b3eahq7rl_thumbnail-full01.png"); */
   /* background-repeat: no-repeat; */
   background-position: center;
 }
